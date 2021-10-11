@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
+
     public bool inAir;
     private Animator animator;
     private CharacterController controller;
@@ -109,8 +110,8 @@ public class CharacterMovement : MonoBehaviour
         controller.Move(moveDirection * Time.deltaTime);
         PickUpObject();
 
-
     }
+
 
     private void PickUpObject()
     {

@@ -324,6 +324,7 @@
 "Assets/My Assets/Movement/CameraController.cs"
 "Assets/My Assets/Movement/CharacterMovement.cs"
 "Assets/My Assets/Movement/FarmerController.cs"
+"Assets/My Assets/Scripts/AirVent.cs"
 "Assets/My Assets/Scripts/CheckMate.cs"
 "Assets/My Assets/Scripts/ChickenController.cs"
 "Assets/My Assets/Scripts/CollectGem.cs"

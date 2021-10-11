@@ -39,6 +39,7 @@
      <Compile Include="Assets\My Assets\Scripts\ToggleSandMesh.cs" />
      <Compile Include="Assets\My Assets\Scripts\CollectGem.cs" />
      <Compile Include="Assets\My Assets\Scripts\CollectStar.cs" />
+     <Compile Include="Assets\My Assets\Scripts\AirVent.cs" />
      <Compile Include="Assets\My Assets\Scripts\StarAppear.cs" />
      <Compile Include="Assets\Imported Assets\LowPolyFencePack\Scripts\DoorController.cs" />
      <Compile Include="Assets\My Assets\Scripts\InteractiveObject.cs" />

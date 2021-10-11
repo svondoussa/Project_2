@@ -9,7 +9,6 @@ public class FarmerController : MonoBehaviour
 
     private Animator animator;
     public TextMeshPro speech;
-    public Transform player;
     private string currentSpeechText;
     public string beforeFoundSpeech = "I wish my  chickens\nwould come back...";
     public string afterFoundSpeech = "Yay my chickens\nare back!!";

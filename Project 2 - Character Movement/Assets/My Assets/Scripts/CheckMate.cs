@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class CheckMate : MonoBehaviour
 {
-    public GameObject matingPiece;
     public StarAppear star;
+    public Collider rook;
+    public FarmerController character;
+
 
     private void OnTriggerStay(Collider other) {
-        if (matingPiece.tag == other.tag) {
+        if (other == rook) {
             star.SendMessage("Appear");
             Destroy(this);
+            character.SendMessage("ChickensFound");
         }
     }
 
